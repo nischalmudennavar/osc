@@ -1,0 +1,759 @@
+
+html{
+  scroll-behavior: smooth;
+  transition: all 1s ease;
+
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;  
+}
+
+body {
+  
+  background: #142850;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  /* background-image: url('/imgs/product.jpg'); */
+
+ 
+  
+}
+
+header{
+  height:120px;
+  background: rgba(0, 0, 0, 0);
+  width:70%;
+  left:14.5%;
+  position: fixed;;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  top:2%;
+  z-index: 99;
+   
+  
+
+
+}
+
+
+.burger{
+  display:none;
+  transition: all 1s ease;
+}
+.burger-menu{
+  display: none;;
+  transition: all 0.5s ease-in;
+
+}
+ .nav-container ul li a{
+
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  padding-right:auto;
+  padding-left:auto;
+ margin:0%;;
+ 
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:18.5px;
+  font-family:'lobster',cursive ;
+  
+  transition: aLL 30ms ease-in;
+ 
+  top:20%;
+  position: relative;;
+  
+  
+
+}
+.unolist
+{
+  border-bottom:1px solid #fff;
+  height:49px;
+  padding:0px;
+  width:40%;
+  
+  position: relative;
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  /* background: #000; */
+  /* border-bottom-right-radius: 70%;
+  border-bottom-left-radius: 70%; */
+  /* box-shadow: 0px 10px 10px rgb(0, 0, 0); */
+ 
+  
+  
+}
+
+.unolist2
+{
+  border-bottom:1px solid #fff;
+  height:39px;
+  padding:0px;
+ width:40%;
+  
+  position: relative;
+  text-align: center;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+
+  /* border-bottom-left-radius: 70%;
+  border-bottom-right-radius: 70%; */
+
+  
+}
+
+.nav-container ul li a:hover{
+ 
+  
+  text-decoration: none;
+  border-top:1px solid  rgb(255, 255, 255);
+  
+  
+  
+}
+.nav-container{
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+  position: relative;
+  bottom:10px;
+  transition: .5s;
+  /* border: 1px #fff solid ; */
+  
+  
+  
+}
+ 
+.container_c{
+  margin:0;
+  padding:0;
+  width:100%;
+
+ 
+ 
+
+}
+.copyrig{
+  font-size: 25px;;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  padding:10px;
+  border-left:1px white solid;
+  border-right:1px white solid;
+  
+  letter-spacing: 3px;
+}
+
+section.home{
+  background-image: url('/imgs/grand_canon.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  transition: all 100ms ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  border-bottom:0.2px solid white;
+
+}
+.content_home{
+  position: relative;;
+  top:10px;
+  width:40%;
+  height:auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border:1px white solid; */
+}
+.content_home p{
+  letter-spacing: 1px;;
+  top:30px;
+  position:relative;
+  bottom:30px;
+  color:white;
+  font-size: 1.25rem;
+  width:100%;
+  text-align:left;
+  font-family: 'Courgette', cursive;
+  font-weight: 100;
+  
+  
+
+}
+
+.overlay{
+
+  height:100vh;
+  background: #084d5ccc;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+  
+
+  
+
+}
+.heading{
+  margin-top:5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.heading h1{
+ 
+  font-size: 2.5em;
+  font-family: 'Rye';
+  
+  /* background: -webkit-linear-gradient(rgb(225, 0, 255), rgb(0, 179, 170));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  letter-spacing:7px;
+  font-size:3.75em;
+  color:#ffffff;
+  font-weight:100;
+  text-shadow: none;
+  transition: all 0.12s ease-in ;
+
+}
+
+
+.merak{
+  
+  width:70%;
+  border-bottom: 2px solid #fff;
+   opacity: 1;
+  top:50%;
+  
+ 
+}
+
+
+
+.heading h5{
+  color:white;
+  text-shadow: none;
+  font-family: 'Grand Hotel', cursive;    
+  font-size: 2.75em;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.circle{
+
+  width:15%;
+  height:56%;
+  background: none;
+  border-right:2px #ffffff solid ;
+  border-left:2px #ffffff solid ;
+  /* box-shadow:0px 0px 10px rgba(255, 255, 255, 0.205) inset;
+   color:rgba(255, 255, 255, 0.884); */
+   position: relative;
+ 
+  background-image: url('/imgs/logo.svg');
+  background-position: center;
+  
+  background-size:50%;
+  background-repeat: no-repeat;
+  z-index: 99;
+  cursor: pointer;
+  /* border-radius: 50%; */
+  transform:rotate(0deg);
+  transition: all 0.3s ease;
+  
+
+}
+
+.wheee1{
+  height:40px;
+ overflow: hidden;
+  background-image: url('/imgs/brown-vintage-background-with-steampunk-gears-design.jpg');
+  
+ 
+}
+.wheeOverlay{
+  width:170%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.76);
+  z-index: 99;
+  position: relative;
+  
+  
+}
+.wheeContainer{
+  list-style: none;
+  
+}
+.wheeContainer li{
+  font-size:25px;
+  margin:10px;
+  color:white;
+  font-weight: 100;
+  display: inline-block;
+  
+}
+
+
+
+.nav-active{
+  opacity:1;
+}
+
+/*  home eends here!  */
+
+/* about starts here  */
+
+.about{
+  width:100%;
+ overflow: hidden;
+  background: #ffffff;
+  margin:auto;
+  border:1px solid #fff;
+  background-image: url('/imgs/bg333.png');
+  background-size: cover;
+  background-position: center;
+  
+  
+  
+  
+
+}
+.about_content{
+  
+  display: flex;
+  color:white;
+  font-family: 'Unica One'; 
+  justify-content: space-evenly;
+  font-weight:100;
+  letter-spacing:1.5px;
+  height:20%;
+  margin:10px;
+  
+  /* border:6px solid #fff; */
+  flex-wrap: wrap;
+}
+
+
+
+.cont{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:4%;
+  width:45%;;
+  
+ 
+  
+
+
+}
+
+.cont h1{
+  font-size:2.5rem;
+  font-weight:900;
+  color:rgba(252, 70, 57, 0.993)
+
+}
+
+.about_content  p{
+  position: relative;
+  font-weight:100;
+  font-size:20px;
+
+  
+}
+
+.about_content:nth-child(2)
+{
+  position: relative;
+  margin-bottom:10%;
+  
+}
+
+
+
+  
+.linear{
+  height:auto;
+  width:30%;
+  filter:brightness(00);
+  
+  
+}
+.colorize{
+
+  filter:brightness(00);
+  
+  
+  transition: all 1s ease ;
+}
+.overlayAbout{
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #00000094;
+}
+.about-items{
+  width:70%;
+  
+  
+}
+.merak2{
+  /* filter: saturate(0);
+  filter: brightness(500); */
+  
+  
+  width:50%;;
+  transition: all 1s ease ;
+}
+.colorize:hover{
+
+
+ filter:brightness();
+  
+  
+
+}
+/* about ends here  */
+
+/* team starts here  */
+
+
+.team-container{
+  
+  width:100%;
+  background:#40bfc1;
+  background-image: url('/imgs/brown-vintage-background-with-steampunk-gears-design.jpg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 2200px;
+  border-top:1px solid #fff;
+  transition: all 1s ease;
+ 
+}
+
+.team-container h1{
+  color:white;
+  font-size: 30px;
+  font-family:'lobster';
+  font-weight:100;
+  text-align: center;
+  position: relative;
+  margin-top:30px;
+  
+}
+.teamer{
+  width:100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  
+
+}
+.team-overlay{
+  background: rgba(0, 91, 114, 0.671);
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.member{
+  margin-top:30px;
+  height:300px;
+  width:200px;
+  background: #fff;
+  margin:20px;
+  border-radius: 10px;
+  border-top:10px solid #40bfc1;
+  border-bottom:10px solid #ff522fb6;
+  filter: saturate(0);
+  transition:all 200ms ease-in ;
+  
+ 
+  
+}
+.member:hover{
+
+  filter: sepia(0);
+  transform: translateY(-10px);
+
+}
+.johnDoe{
+  height:auto;
+  width:80%;
+  margin-top:20px;
+  left:20px;
+  
+  position: relative;
+  
+}
+.social{
+  list-style: none;
+  display: flex;
+  width:70%; 
+  
+  justify-content:space-evenly; 
+  align-items: center;
+  margin:auto;
+  margin-top:10px;
+  background: rgb(224, 224, 224);
+  border-radius: 10px;
+  height:40px;
+  text-align: center;
+
+
+}
+
+.social li a i{
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-size:20px;
+ 
+
+}
+
+/* 
+team ends here  */
+/* 
+prducts start here  */
+
+
+section.product{
+  height:auto;
+  width:100%;
+  overflow:hidden;
+  background-image: url('/imgs/product.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.product-overlay{
+  height:auto;
+  background:#00000094;
+  width:100%;
+ position: relative;
+ 
+}
+.product-overlay h1{
+  text-align: center;
+  color:white;
+  padding:30px;
+  font-size: 30px;
+  font-family: 'Lobster';
+  font-weight:100;
+  text-decoration: underline;
+}
+.product-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height:100%;
+  width:100%;
+  position: relative;
+
+}
+.product-item{
+  height:15%;
+  width:15%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  flex-direction: column;
+  border-radius: 10px;
+  border:10px solid #3013af;
+  margin:10px;
+  cursor: pointer;
+  
+}
+.imagecss{
+  height:90%;
+  width:85%;
+  margin:15px;
+}
+.product-item:nth-child(6)
+{
+  border-color: rgb(83, 255, 83);
+}
+
+.product-item ul li{
+  list-style: none;
+  display: inline-block;
+  margin:20px;
+}
+
+.translatee{
+  transform: translateY(0);
+  transition: all 200ms ease ;
+}
+.translatee:hover{
+  transform: translateY(-10px);
+}
+
+/* 
+product ends here  */
+
+
+
+/* footer starts here  */
+
+.footer{
+  height:37vh;
+  width:100%;
+  background-image: url('/imgs/bg333.jpg');
+  /* background: rgba(39, 39, 39, 0.952); */
+ 
+  color:white;
+  font-family:'lobster';
+  font-weight:none;
+ 
+  
+}
+.footer-overlay{
+  width:100%;
+  height:100%;
+  display: flex;
+  
+  background: #2a2a2a;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center ;
+  color:white;
+  font-family:'lobster';
+  font-weight:none;
+ 
+}
+.footer-logo{
+  height:auto;
+  width:120px;
+  padding: 10px;;
+  margin-top:10px;
+  
+}
+.footer-links li a {
+  font-size: 40px;
+  color:white;
+  text-decoration: none;
+  
+
+}
+.contact-form i{
+  margin-left:11px;
+
+}
+
+.fab{
+  opacity: 0.6;
+}
+.fab:hover{
+  opacity: 1;
+  text-shadow:0px 0px  10px rgba(255, 255, 255, 0.466);
+  
+}
+.fa-facebook
+{
+  color:#1ffbff;
+}
+.fa-instagram
+{
+  color:#ffffff;
+}
+.fa-flickr
+{
+  color:#0081fa;
+}
+.fa-youtube
+{
+  color:#dd0025;
+}
+.fa-twitter
+{
+  color:#a9ebff;
+}
+.footer-links li {
+
+  list-style: none;
+  display: inline;
+  margin:15px;
+}
+.contact-form i{
+  font-size :20px;
+}
+.devDesc{
+  margin-top:10px;
+  font-size:20px;
+  font-family:'lobster';
+  font-weight:none;
+  letter-spacing: 2px;;
+  
+}
+.devDesc a {
+
+  text-decoration: none;
+  color:#40bfc1;
+  margin-left:10px;
+  
+
+
+}
+/* 
+footer ends here  */
+
+/* scroll bar customiastion starts here! */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  background: rgb(0, 0, 0);
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:white; 
+  height:3px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(170, 170, 170); 
+}
+

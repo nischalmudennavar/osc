@@ -1,0 +1,249 @@
+@media screen and (max-width: 800px) {
+
+    body{
+     
+      height:auto;
+    }
+    header{
+      margin-top:5px;
+      height:35px;
+    }
+      .unolist{
+        display:none;
+        transition: all 0.8s ease-in;
+        
+      }
+      .unolist2{
+        display:none;
+        transition: all 0.8s ease-in;
+
+      }
+    
+
+    .burger-menu{
+      transition: all 1s ease-in;
+    }
+
+    .content_home p{
+
+      font-size:0.8rem;
+      width:170%;
+      text-align: initial;
+      
+      
+    }
+    .content_home{
+      position: relative;
+      top:40px;
+    }
+    .content_home img{
+      width:140%;
+    }
+
+    .heading{
+
+      top:20px;
+      position: relative;
+
+    }
+
+    .heading h1{
+
+      font-size:2rem;
+      z-index: 35;
+      left: 1px;
+    }
+    .heading h5{
+      font-size:1.9rem;
+      position: relative;
+      top:10px;
+    }
+    
+     .active{
+      display: block;
+      top:30px;
+      border:0.1px solid #fff;
+      height:auto;
+      width:80%;
+      left:12%;
+      background: rgba(0, 0, 0, 0.938);
+      position:fixed;
+      z-index: 99;
+      transition: all 1s ease-in;
+      overflow: hidden;
+    }
+
+    .active ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      flex-direction: column;
+    }
+    .active ul li{
+      padding:25px;
+      border-bottom:1px solid #fff;
+      width:70%;
+      text-align: center;
+     
+      position: relative;
+
+      
+    }
+    .active ul li a{
+      transition: all 0.5s ease-in;
+      width:100%;
+      font-size: 17px;;
+      color:white;
+      text-decoration: none;
+      font-family:lobster;
+     
+
+    }
+    
+
+    .burger{
+      display:block;
+      position:absolute;
+      left:10px;
+      cursor: pointer;
+      position: fixed;
+      z-index: 99;
+    
+  top:50px;}
+
+  div.line{
+    height:3px;
+    width:30px;
+    background: white;
+    margin:3px;
+    transition: all 0.4s ease-in-out;
+    
+  }
+  
+  #line3{
+    transition: all 2s ease;
+  }
+   .unolist{
+     display: none;
+   }
+   .unolist2{
+     display: none;
+   }
+
+
+
+   .circle{
+     height:100px;
+     z-index: 120;
+     width:100px;
+     top:40px;
+     margin-top:20px;
+     border-radius: 50%;;
+     position: relative;
+     font-size:10px;
+     background-size: 80px;
+   }
+
+    
+   
+     .active_line {
+      transform: rotate(-45deg);
+      position: absolute;
+      transform-origin: center;
+      transition: all 0.4s ease-in-out;
+    }
+    .active_line_2{
+      transform: rotate(-135deg);
+      transform-origin: center;
+      transition: all 0.4s ease-in-out;
+    }
+    .active_line_3{
+      display: none;
+      transition: all 1s ease-in-out;
+    }
+
+      .line_ret{
+        transform: rotate(0deg);
+        margin:3px;
+        position: relative;
+        
+
+      }
+
+     .overlay_team h1{
+
+      font-size:20px;
+      position: relative;
+     top:20px;
+
+     }
+
+
+     .cont h1{
+      font-size:20px;
+      font-weight:100;
+      text-align: center;
+    
+    }
+    .about_content  p{
+      position: relative;
+      font-weight:100;
+      font-size:14px;
+      /* border:1px solid rgb(0, 0, 0); */
+    }
+
+   .merak2{
+     width:80%;
+   }
+   .linear{
+     width:50%;
+   }
+
+
+    .teamer{
+      width:100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+    }
+  .member{
+    height:215px;
+    width:150px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin:0;
+    margin:10px;
+    border:none;
+  }
+  .social{
+    margin-top:10px;
+    height:30px;
+  }
+  .cont{
+    width:100%;
+  }
+  .johnDoe{
+    height:auto;
+    width:70%;
+    margin-top:20px;
+    left:0px;
+  
+    position: relative;
+    
+  }
+  .member h2{
+    font-size:17px;
+   
+  }
+  .member h3{
+    font-size:15px;
+  }
+  .team-container{
+    height:auto;
+  }
+
+  }
