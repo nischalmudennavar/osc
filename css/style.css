@@ -124,7 +124,7 @@ header {
   bottom:50px;
   z-index: 999999999;
   right:50px;
-  width:70px;
+  width:60px;
 
 }
 .copyrig {
@@ -493,7 +493,7 @@ section.product {
 }
 .product-item {
   height: 250px;
-  width: 35%;
+  width: 30%;
   padding: 20px;
   background: #fff;
   display: flex;
