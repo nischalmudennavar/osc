@@ -90,9 +90,9 @@ header {
 }
 .unolist2 li:nth-child(3) {
   background: rgb(255, 112, 29);
-  height:40px;
-  width:100px;
-  border-radius:10px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
 }
 
 .nav-container ul li a:hover {
@@ -118,14 +118,12 @@ header {
   padding: 0;
   width: 100%;
 }
-.whatsapp{
-
-  position:fixed;
-  bottom:50px;
+.whatsapp {
+  position: fixed;
+  bottom: 50px;
   z-index: 999999999;
-  right:50px;
-  width:40px;
-
+  right: 50px;
+  width: 40px;
 }
 .copyrig {
   font-size: 25px;
@@ -139,7 +137,7 @@ header {
 }
 
 section.home {
-  background-image: url("../imgs/grand_canon.png");
+  background-image: url("https://iili.io/l0rVx2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
